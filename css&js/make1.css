@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/bgyingshen1.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.pyzz{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.pyzzw{
+    margin-top:60px;
+    width: 48%;
+    height: 80vh;
+    overflow: auto;
+}
+.buzhou{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+.bs{
+    width: 5%;    
+    font-family: GuFengKeZi;
+    font-size: 30px;
+    font-weight: 700;
+    color: #8F965F;
+}
+.bs img{
+    width:100%;
+    height: auto;
+}
+.wz{
+    width: 90%;
+}
+.wz p{
+    text-indent: 2em;
+    line-height: 1.5em;
+
+}
+b{
+    color: #537240;
+}
+.video{
+    width: 48%;
+    height:80%;
+}

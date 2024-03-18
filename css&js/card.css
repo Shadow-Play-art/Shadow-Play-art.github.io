@@ -1,0 +1,147 @@
+.map {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#mainmap {
+    width: 700px;
+    height: 700px;
+}
+.intro{
+    width: 60%;
+
+}
+.up{
+    overflow-wrap: break-word;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:0;
+}
+.down {
+    display: flex;
+    justify-content: space-around;
+    align-items: bottom;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.down .card-1 {
+
+    width: 30%;
+    height: 130px;
+    background-color: #995C3F;
+    border-radius: 5px;
+    /* overflow: hidden; */
+}
+.down .card-2 {
+
+    width: 30%;
+    height: 130px;
+    background-color: #6F7B55;
+    border-radius: 5px;
+    /* overflow: hidden; */
+}
+.down .card-3 {
+
+    width: 30%;
+    height: 130px;
+    background-color: #AF8C62;
+    border-radius: 5px;
+    /* overflow: hidden; */
+}
+
+.down .card-1:hover {
+    /* height: 400px; */
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+.down .card-2:hover {
+    /* height: 400px; */
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+.down .card-3:hover {
+    /* height: 400px; */
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+.down .card .img-box {
+
+    border-radius: 10px;
+    overflow: hidden;
+    top: -100px;
+    left: 20px;
+}
+
+.down .card .text-box {
+
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease-in-out;
+
+}
+
+.text-box p {
+    line-height: 25px;
+    font-size: 15px;
+    text-indent: 2em;
+}
+
+.down .card:hover .text-box {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: .2s;
+}
+.text-box h2{
+    font-family: GuFengKeZi;
+    color: #F7EEE2;
+    text-align: center;
+}
+.up h1{
+    font-family: GuFengKeZi;
+    font-size: 50px;
+    font-weight: normal;
+    color: #B06034;
+}
+.up p{
+    color:#514A38;
+    padding: 5px;
+    text-indent: 2em;
+}
+.text-box{
+    color: #F7EEE2;
+    padding: 10px;
+}
+.details{
+    font-family: GuFengKeZi;
+    color: #7E8A63;
+    font-size: 20px;
+    font-weight: 500 ;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.details :link{
+    text-decoration: none;
+    color:#7E8A63;
+    font-size: 25px;
+    font-weight: 500 ;
+}
+.details :hover{
+    text-decoration: none;
+    color:#7E8A63;
+    font-size: 25px;
+    font-weight: 500 ;
+}
+.details :visited{
+    text-decoration: none;
+    color:#7E8A63;
+    font-size: 25px;
+    font-weight: 500 ;
+}

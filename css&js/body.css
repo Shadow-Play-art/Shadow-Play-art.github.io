@@ -1,0 +1,63 @@
+body{
+    background: url("../img/allbg.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    
+}
+.copyright{
+    font-family: GuFengKeZi;
+    font-size: 25px;
+    flood-color: #3f4499;
+    text-align: center;
+    margin: 30px;
+}
+nav div {
+    font-family: GuFengKeZi;
+    font-size: 40px;
+    color: #8a6a44;
+}
+
+nav :link {
+    color: #8a6a44;
+    text-decoration: none;
+}
+
+nav :visited {
+    color: #572D14;
+    text-decoration: none;
+}
+
+nav :hover {
+    color: #7D8EAD;
+    text-decoration: none;
+}
+.btns {
+    background-image: url("../img/btt.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-weight: bold;
+    font-family: GuFengKeZi;
+    width: 120px;
+    height: 100px;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 100px;
+    padding-top: 5px;
+}
+
+.btns:link {
+    text-decoration: none;
+    color: #995C3F;
+}
+
+
+.btns:visited {
+    text-decoration: none;
+    color: #995C3F;
+}
+
+.btns:hover {
+    text-decoration: none;
+    color: #3f4499;
+}

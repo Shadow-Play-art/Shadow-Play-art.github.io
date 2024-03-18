@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preload" href="font/ziti/qiji-combo.ttf" as="font" type="font/woff" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>皮影</title>
+    <script src="css&js/echarts.min.js"></script>
+    <script src="css&js/china.js"></script>
+    <script src="css&js/data.js"></script>
+    <link href="css&js/card.css" rel="stylesheet">
+    <link href="css&js/index.css" rel="stylesheet">
+    <link href="css&js/footer.css" rel="stylesheet">
+    <link href="css&js/nav.css" rel="stylesheet">
+    <link href="css&js/font.css" rel="stylesheet">
+    <link href="css&js/history.css" rel="stylesheet">
+    <link href="css&js/categories.css" rel="stylesheet">
+    <link rel="stylesheet" href="css&js/make.css">
+    <link rel="stylesheet" href="css&js/feature.css">
+    <link rel="stylesheet" href="css&js/body.css">
+</head>
+
+<body>
+
+    <!-- bannner -->
+    <div class="py">
+        <img src="img/py1.png" alt="" width="100%">
+    </div>
+    <div id="main">
+
+        <nav id="top">
+            <div><a href="#history"><img src="img/tab-h.png"> 皮影历史</a></div>
+            <div><a href="#schools"><img src="img/tab-h.png"> 皮影流派</a></div>
+            <div><a href="#category"><img src="img/tab-h.png"> 皮影类别</a></div>
+            <div><a href="#create"><img src="img/tab-h.png"> 皮影制作</a></div>
+            <div><a href="#feature"><img src="img/tab-h.png"> 皮影特色</a></div>
+
+        </nav>
+        <div class="show">
+
+            <div class="slide">
+                <div class="slide-item item1">
+                    <img src="img/dongwu.png">
+                </div>
+                <div class="slide-item item2">
+                    <img src="img/qiuzi.png">
+                </div>
+                <div class="slide-item item3">
+                    <img src="img/chuozi.png">
+                </div>
+                <div class="slide-item item4">
+                    <img src="img/toucha.png">
+                </div>
+                <div class="slide-item item5">
+                    <img src="img/daoju.png">
+                </div>
+                <div class="slide-item item0">
+                    <img src="img/chenjing.png">
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- 历史 -->
+    <div class="history">
+        <div class="ht">
+            <div class="biaoshi">
+                <img src="img/btn-prev.png">
+            </div>
+            <div class="ht1">
+                <h1 id="history">皮影历史</h1>
+            </div>
+            <div class="biaoshi">
+                <img src="img/btn-next.png">
+            </div>
+        </div>
+
+        <div class="htw">
+            <div class="left-w">
+                <div class="left-w-1">
+                    <div class="list"><img src="img/qiyuan.png"><br>
+
+                        起源</div>
+                    <div class="brief">
+                        <p>
+                            汉武帝刘彻的宠妃李夫人仙逝，武帝悲思不已。方士齐人少翁精心剪刻了李夫人的画像，晚上在一顶方帐中点起灯烛，映出宛如其人的影子。武帝在另一帐中远远望去，李夫人摇曳生姿，栩栩如生。<b>“张灯作戏调翻新，顾囊徘徊知逼真。环佩姗姗连步稳，帐前活见李夫人。”</b>
+                        <p>
+                            又有说汉代一个太子从小爱哭，由宫人抱着玩。有一天看到窗户上叶子的影子，随风忽至忽灭，觉得好玩，就不哭了，于是有了<b>帐后动影</b>的艺术形式。
+                        </p>
+                    </div>
+                </div>
+                <div class="left-w-1">
+                    <div class="list"><img src="img/fazhan.png"><br>
+
+                        发展</div>
+                    <div class="brief">
+                        <p>
+                            据记载，皮影到了<b>宋代</b>之初已达到了<b>成熟的阶段</b>。北宋的“瓦肆”，演出的“百戏”不可胜数，其中专有影戏演出。<b>元代</b>，皮影已作为军队内部的娱乐活动。<b>金代</b>影戏传到北方边远地区。
+                        <p>
+                            <b>明代</b>是皮影的一个重要时期，这个时期内影戏完成了两个使命：一是<b>皮影的流派相继成熟</b>；二是<b>皮影的对外传播加强</b>。随着政治中心的北移，皮影在河北一带发展迅速。永乐、万历年间，由于江南、湖广、四川等地屯军边疆的原因，皮影流入云南等地，和当地的艺术形式结合，在唱腔、脸谱和美术制作上形成独特的风格。
+                        <p>
+                            <b>清代和民国期间</b>是中国影戏发展史上的第二次高峰，皮影戏到达了全国大部分的省份（新疆、西藏、贵州、广西、海南无确切资料）。这一时期出现另外两种班社：一是王府戏班，一是富豪家班，清代后期又产生了影戏茶馆。民国时期皮影呈<b>衰颓之状</b>，从事皮影表演的人减少。
+                        <p>
+                            <b>抗日战争</b>中，福建漳州以皮影戏的形式宣传抗日救国，演遍漳州市，深受欢迎。<b>1949年后</b>，皮影戏由于受到党和政府的重视、扶植，短期内迅速复兴。据1955年文化部的不完全统计，当时各地有皮影戏班社900多个，从艺人员5300多名。1966年<b>“文革”</b>爆发，皮影像其它许多民间艺术一样均被禁演。1976年，“文革”结束，皮影戏又以惊人的速度恢复了演出，这种状况持续的时间也是很短的，<b>八十年代末期</b>，因为演出市场的不景气，许多中青年影戏艺人退出舞台，改作他行以谋生计，这当是造成今日演员青黄不接、断代的原因。
+                    </div>
+                </div>
+            </div>
+            <div class="right-t">
+                <img src="img/微信图片_20221202221451.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- 影系 -->
+    <div class="map">
+
+        <div id="mainmap"></div>
+        <script>
+            var myMap = echarts.init(document.getElementById('mainmap'));
+            var option = {
+                visualMap: {
+                    show: true
+                },
+                series: [{
+                    type: 'map',
+                    map: 'china',
+                    data: data
+                }],
+                visualMap: {
+                    show: true,
+                    left: 'right',
+                    top: 'center',
+                    text: ['流派'],
+                    pieces: [
+                        { lte: 1, color: '#995C3F' },
+                        { lte: 2, gt: 1, color: '#AF8C62' },
+                        { lte: 3, gt: 2, color: '#6F7B55' },
+                        { lte: 4, gt: 3, color: '#C6B28D' }
+                    ]
+                }
+            }
+
+            myMap.setOption(option);
+        </script>
+        <div class="intro">
+            <div class="up">
+                <h1 id="schools">皮影流派</h1><br>
+                <p>中国传统皮影戏历史绵延两千年以上，流传极广，遍布华北、西北、华南、东北、华东各省。因地区的差异，又形成了许多不同的艺术风格。
+                <p>皮影戏主要分为<b>七大系统</b>：秦晋影系、滦州影系、山东影系、杭州影系、川鄂滇影系、湘赣影系和潮州影系，每系统都以一两地为中心向四周呈辐射状。在北宋时，逐渐形成了中国皮影戏的三大流派：<b>西部皮影、北部皮影和东部皮影</b>。
+                </p>
+                <div class="details">
+                    <a href="down/liupaixiangqing.html">
+                        <p><img src="img/tab-h.png"> 点此查看详情</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="down">
+                <div class="card-1">
+                    <div class="img-box">
+                        <img src="img/1.1.jpg" width="100%">
+                    </div>
+                    <div class="text-box">
+                        <br>
+                        <h2>北 部 影 系</h2><br>
+                        <p>以道腔为主要唱腔，所以主题大为道教题材，劝诫与人为善，修得轮回。雕刻刀法比较粗旷，豪放。</p>
+                    </div>
+                </div>
+                <div class="card-2">
+                    <div class="img-box">
+                        <img src="img/2.1.jpg" width="100%">
+                    </div>
+                    <div class="text-box">
+                        <br>
+                        <h2>西 部 影 系</h2><br>
+                        <p>影身与头的比例大于其他地区，一般为7比1。因此体型修长，刀路以直线或小弧线为主。</p>
+                    </div>
+                </div>
+                <div class="card-3">
+                    <div class="img-box">
+                        <img src="img/3.1.jpg" width="100%">
+                    </div>
+                    <div class="text-box">
+                        <br>
+                        <h2>东 部 影 系</h2>
+                        <br>
+                        <p>风格细腻，制作精益求精。具备小巧玲珑，工艺精湛，造型优美的特点。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 类别 -->
+    <div class="ht">
+        <div class="biaoshi">
+            <img src="img/btn-prev.png">
+        </div>
+        <div class="ht1">
+            <h1 id="category">皮影类别</h1>
+        </div>
+        <div class="biaoshi">
+            <img src="img/btn-next.png">
+        </div>
+    </div>
+    <div class="container">
+        <input type="radio" name="tabs" id="tab_top" checked>
+        <input type="radio" name="tabs" id="tab_middle">
+        <input type="radio" name="tabs" id="tab_bottom">
+        <input type="radio" name="tabs" id="tab_4">
+        <div class="cube">
+            <div class="tab-content">
+                <h1>头插</h1>
+                <h2>TOU-CHA</h2>
+                <div class="jieshao">
+                    <p>头插（又称<b>“头茬”</b>），在戏剧里叫脸谱，它不仅仅有<b>生、旦、净、末、丑</b>的角色分类，有实力的收藏家更喜好按照戏剧人物进行全套“专用头”收藏。如《封神演义》中的各路神仙（哪吒为脸上带有莲花的童子、杨戬为三只眼的小生）;《白蛇传》中的白素贞、小青（头上配有白蛇、青蛇的小旦）;《西游记》师徒四人、《三国演义》刘备、关羽、张飞、诸葛亮，这些都是大家耳熟能详的人物形织，这些头插不能与一般头插混用，所以人们称之为“专用头”。
+                    </p><br>
+                    <h3>左 右 点 击 查 看 更 多 图 片</h3>
+                    <div id="slidetu">
+                        <div class="biaoshi">
+                            <img src="img/btn-prev.png" width="15px" onclick="chgLeft()">
+                        </div>
+                        <img id="slide_img" src="img/01.1.png" width="85%">
+                        <div class="biaoshi">
+                            <img src="img/btn-next.png" width="15px" onclick="chgRight()">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-content">
+                <h1>影身</h1>
+                <h2>YING-SHEN</h2>
+                <h3>左 右 点 击 查 看 更 多 图 片</h3>
+                <div id="yingshenfangkuai" style="align-items: center;display:flex;justify-content: center;">
+                    
+                        <img class="ysbiaoshi" src="img/btn-prev - 副本.png" width="15px" onclick="chgLeft2()">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img id="slide_img2" src="img/02.1.png" width="55%">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img class="ysbiaoshi" src="img/btn-next - 副本.png" width="15px" onclick="chgRight2()">
+                    
+
+                </div>
+            </div>
+            <div class="tab-content">
+                <h1>云朵子</h1>
+                <h2>YUN-DUO-ZI</h2>
+                <h3>左 右 点 击 查 看 更 多 图 片</h3>
+                <div id="slidetu2">
+                    <div class="biaoshi">
+                        <img src="img/btn-prev - 副本 (2).png" width="15px" onclick="chgLeft3()">
+                    </div>
+                    <img id="slide_img3" src="img/03.1.png" width="85%">
+                    <div class="biaoshi">
+                        <img src="img/btn-next - 副本 (2).png" width="15px" onclick="chgRight3()">
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-content">
+                <h1>布景</h1>
+                <h2>BU-JING</h2>
+                <h3>左 右 点 击 查 看 更 多 图 片</h3>
+                <br>
+                <div id="slidetu3">
+                    <div class="biaoshi">
+                        <img src="img/btn-prev - 副本 (3).png" width="15px" onclick="chgLeft4()">
+                    </div>
+                    <img id="slide_img4" src="img/04.1.png" width="70%">
+                    <div class="biaoshi">
+                        <img src="img/btn-next - 副本 (3).png" width="15px" onclick="chgRight4()">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="labels">
+            <label for="tab_top" class="tab">头插</label>
+            <label for="tab_middle" class="tab">影身</label>
+            <label for="tab_bottom" class="tab">云朵子</label>
+            <label for="tab_4" class="tab">布景</label>
+        </div>
+    </div>
+<br>
+<br>
+    <!-- 制作 -->
+    <div class="ht">
+        <div class="biaoshi">
+            <img src="img/btn-prev.png">
+        </div>
+        <div class="ht1">
+            <h1 id="create">皮影制作</h1>
+        </div>
+        <div class="biaoshi">
+            <img src="img/btn-next.png">
+        </div>
+    </div>
+    <div class="make">
+        <div>制皮</div>
+        <div>画稿</div>
+        <div>雕刻</div>
+        <div>敷彩</div>
+        <div>缀结</div>
+    </div>
+    <br>
+    <br>
+    <div class="mk">
+            <h4><a href="down/make.html"><img src="img/tab-h.png"> 点 此 查 看 详 情</a></h4>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- 特色 -->
+    <div class="ht">
+        <div class="biaoshi">
+            <img src="img/btn-prev.png">
+        </div>
+        <div class="ht1">
+            <h1 id="feature">皮影特色</h1>
+        </div>
+        <div class="biaoshi">
+            <img src="img/btn-next.png">
+        </div>
+    </div>
+    <div class="containern">
+        <div class="navn">
+            <div class="itemn active"><img src="img/mk1.png">
+                造型艺术</div>
+            <div class="itemn"><img src="img/btn-byys-d.png">
+                表演艺术</div>
+            <div class="itemn"><img src="img/mk2.png">光影艺术</div>
+
+        </div>
+        <div class="contentn">
+            <section class="active"><span><br>
+            <p>皮影在造型上主要吸收了<b>剪纸</b>的造型方式，透过窗花镂空透光的效果。同时融入了<b>戏曲脸谱、壁画、雕塑、画像石</b>的形态特点，把剧中生、旦、净、丑的人物性格刻画得形神兼备。
+            <p>皮影人物造型以<b>侧脸显影</b>为多，<b>忠良者</b>五分脸显影，<b>奸者</b>以七分显影，少量专用脸以正面显影。雕刻者抓住人物最重要的特征进行适当地夸张处理。充分利用<b>阴阳雕刻</b>的手段用阳刻表现正面人物清秀纯真的特点，用阴刻表现花脸、丑脸角色的狰狞。宋代的耐得翁《都城纪胜》就提到了：<b>“公忠者雕以正貌，奸邪者予以丑貌，盖亦寓褒贬于其间耳。”</b></span></section>
+            <section>
+                <span><br>
+                    <p>皮影是<b>二维度的艺术</b>，而且是通过<b>光影</b>来造型演出的，它不像电影，可以用蒙太奇、定格、镜头推进、特写等手法来表明人物的内心思想过程，也不像戏曲，可以通过演员的肢体表情来传情达意，它只能依靠影像的动作和后台的念唱来表现，因此是一种独特的<b>屏幕艺术</b>。皮影戏<b>“以影显形”，“借光显影”</b>。皮影是充分利用光影的原理使艺术形象生动起来的，所以适度地控制好与屏幕之间的距离，表现出<b>虚实结合</b>的效果。
+                    <p>为了让剧本具有更加令人愉悦的审美效果，皮影艺人还创造了一些方法，造成独特的特技效果，表现飞天入地、隐身变形、喷烟吐火、腾云驾雾、神鬼变幻、劈山倒海的场景再加上各种声光效果，足以让现代人也觉耳目一新。</span>
+            </section>
+            <section><span><br>
+                <p>在人戏之前，先有傀儡戏。皮影是傀儡戏，功能为除煞、酬神与送神。有人说称方士少翁为汉武帝演的就是巫术。还有人认为，白居易之《长恨歌》中出现的唐明皇与杨贵妃死后相聚的描述就是当时皮影戏出现的依据。元代的汪颢《林田叙录》云：<b>“傀儡牵木作戏，影戏彩纸斑斓，敷陈故事祈福辟禳。”</b>说的就是这个意思。直到明清时期，这种功能依然存在。</span></section>
+
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; 林欣铭 网络传播系 结课作业 皮影艺术
+    </div>
+    <div class="footer">
+        <div class="footimg">
+            <ul>
+                <li><img src="img/0.1.png" alt=""></li>
+                <li><img src="img/3437199.png" alt=""></li>
+                <li><img src="img/3437200.png" alt=""></li>
+                <li><img src="img/3437201.png" alt=""></li>
+                <li><img src="img/0.3.png" alt=""></li>
+                <li><img src="img/3437202.png" alt=""></li>
+                
+                <li><img src="img/0.2.png" alt=""></li>
+                <li><img src="img/3437203.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <script src="css&js/footer.js"></script>
+    <div style="padding-top:20px;padding-right:50px;padding-bottom:50px">
+        <a href="#top" style="position: fixed;
+        right: 10px;
+        bottom: 20px;
+        z-index: 10; 
+        float: right;" class="btns">回到顶部</a></div>
+
+</body>
+
+</html>
+<script src="css&js/feature.js"></script>
+
+    <script>
+        var cur = 0;
+        var image = [
+            "img/01.1.png",
+            "img/01.2.png",
+            "img/01.3.png",
+            "img/01.4.png",
+            "img/01.5.png"
+        ];
+        function chgLeft() {
+            cur--;
+            if (cur < 0) {
+                cur = image.length - 1;
+            }
+            seta(image[cur]);
+        }
+        function chgRight() {
+            cur++;
+            if (cur >= image.length) {
+                cur = 0;
+            }
+            seta(image[cur]);
+        }
+        function seta(imgname) {
+            img = document.getElementById("slide_img");
+            img.src = image[cur];
+            console.info(imgname);
+        }
+
+    </script>
+
+    <script>
+        var a = 0;
+        var image2 = [
+            "img/02.1.png",
+            "img/02.2.png",
+            "img/02.3.png", 
+            "img/02.4.png",
+            "img/02.5.png",
+            "img/02.6.png",
+        ];
+        function chgLeft2() {
+            a--;
+            if (a < 0) {
+                a = image2.length - 1;
+            }
+            setimg(image2[a]);
+        }
+        function chgRight2() {
+            a++;
+            if (a >= image2.length) {
+                a = 0;
+            }
+            setimg(image2[a]);
+        }
+        function setimg(imgname2) {
+            img = document.getElementById("slide_img2");
+            img.src = image2[a];
+            console.info(imgname2);
+        }
+    </script>
+
+    <script>
+        var b = 0;
+        var image3 = [
+            "img/03.1.png",
+            "img/03.2.png"
+        ];
+        function chgLeft3() {
+            b--;
+            if (b < 0) {
+                b = image3.length - 1;
+            }
+            setb(image3[b]);
+        }
+        function chgRight3() {
+            b++;
+            if (b >= image3.length) {
+                b = 0;
+            }
+            setb(image3[b]);
+        }
+        function setb(imgname3) {
+            img = document.getElementById("slide_img3");
+            img.src = image3[b];
+            console.info(imgname3);
+        }
+    </script>
+
+    <script>
+        var c = 0;
+        var image4 = [
+            "img/04.1.png",
+            "img/04.2.png",
+            "img/04.3.png",
+            "img/04.4.png"
+        ];
+        function chgLeft4() {
+            c--;
+            if (c < 0) {
+                c = image4.length - 1;
+            }
+            set(image4[c]);
+        }
+        function chgRight4() {
+            c++;
+            if (c >= image4.length) {
+                c = 0;
+            }
+            set(image4[c]);
+        }
+        function set(imgname4) {
+            img = document.getElementById("slide_img4");
+            img.src = image4[c];
+            console.info(imgname4);
+        }
+    </script>

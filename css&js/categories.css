@@ -1,0 +1,192 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    
+} */
+.container{
+    height: 400px;
+    position: relative;
+    width: 80%;
+    display: flex;
+    color:#F7EEE2;
+    font-weight: 300;
+    transform: translate(13%,0%);
+    text-transform: uppercase;
+    perspective: 1300px;
+    margin: 50px;
+}
+input{
+    display: none;
+}
+.labels{
+    height: 400px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tab{
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color:#fcf6ee;
+    font-family: GuFengKeZi;
+    font-size: 30px;
+}
+.tab:nth-child(1){
+    background-color:#DDCDBE;
+    background-image: url("../img/tou cha.png");
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.tab:nth-child(2){
+    background-color: #B8A890;
+    background-image: url("../img/yingshen.png");
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.tab:nth-child(3){
+    background-color:#B17551;
+    background-image: url("../img/yunduozi.png");
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.tab:nth-child(4){
+    background-color:#A76C44;
+    background-image: url("../img/bujv.png");
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.cube{
+    position: relative;
+    flex: 1;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in;
+}
+.tab-content{
+    width: 94%;
+    height: 400px;
+    position: absolute;
+}
+.jieshao{
+    width: 80%;
+    margin: 5px auto;
+}
+.jieshao b{
+    color:#7b4038;
+}
+.tab-content h1{
+    color: #C24328;
+    font-size: 40px;
+    font-weight: 300;
+    font-family:GuFengKeZi ;
+    text-align: center;
+}
+.tab-content h2{
+    color: #964A34;
+    font-size: 20px;
+    font-weight: 300;
+    font-family:GuFengKeZi ;
+    text-align: center;
+}
+.tab-content h3{
+    color: #964A34;
+    font-size: 20px;
+    font-weight: 300;
+    font-family:GuFengKeZi ;
+    text-align: center;
+}
+.tab-content p{
+    font-size: 14px;
+    font-weight: 100;
+    text-indent: 2em;
+    color: #0B2540;
+    line-height: 1.5em;
+}
+.tab-content:nth-child(1){
+    background-image: url("../img/bgtoucha.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotateX(-270deg) translateY(-200px);
+    transform-origin: top center;
+}
+.tab-content:nth-child(2){
+    background-image: url("../img/qyfz-bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: translateZ(200px);
+}
+.tab-content:nth-child(3){
+    background-image: url("../img/ybxs-bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotateX(-90deg) translateY(200px);
+    transform-origin: bottom center;
+}
+.tab-content:nth-child(4){
+    background-image: url("../img/ts-bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotateZ(180deg) rotateY(180deg) translateZ(200px);
+
+}
+#tab_top:checked ~ .cube{
+    transform: rotateX(-90deg);
+}
+#tab_middle:checked ~ .cube{
+    transform: rotateX(0deg) 
+    translateY(3px)
+    ;
+}
+#tab_bottom:checked ~ .cube{
+    transform: rotateX(90deg);
+}
+#tab_4:checked ~ .cube{
+    transform: rotateX(180deg) 
+    translateY(-3px)
+    ;
+}
+#slidetu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+#slidetu .biaoshi img{
+    width: 50%;
+}
+
+#slidetu2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#slidetu2 .biaoshi img{
+    width: 70%;
+}
+#slidetu2 img{
+    width:60%;
+}
+#slidetu3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#slidetu3 .biaoshi img{
+    width: 70%;
+}
+#slidetu3 img{
+    width:40%;
+}

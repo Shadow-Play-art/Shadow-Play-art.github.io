@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地图</title>
+    <script src="echarts.min.js"></script>
+    <script src="china.js"></script>
+    <script src="data.js"></script>
+    <link href="card.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="map">
+        <div id="mainmap"></div>
+        <script>
+            var myMap = echarts.init(document.getElementById('mainmap'));
+            var option = {
+                visualMap: {
+                    show: true
+                },
+                series: [{
+                    type: 'map',
+                    map: 'china',
+                    data: data
+                }],
+                visualMap: {
+                    show: true,
+                    left: 'right',
+                    top: 'center',
+                    text: ['影系'],
+                    pieces: [
+                        { lte: 1, color: '#995C3F' },
+                        { lte: 2, gt: 1, color: '#AF8C62' },//北
+                        { lte: 3, gt: 2, color: '#6F7B55' },//中南
+                        { lte: 4, gt: 3, color: '#C6B28D' },//西
+                    ]
+                }
+            }
+
+            myMap.setOption(option);
+        </script>
+        <div class="intro">
+            <div class="up">
+                hhhhhhhhhhhhhh
+            </div>
+            <div class="down">
+                <div class="card-1">
+                    <div class="img-box">
+                        <img src="img/1.1.jpg" width="100%">
+                    </div>
+                    <div class="text-box">
+                        <h2>1</h2>
+                        <p>111</p>
+                    </div>
+                </div>
+                <div class="card-2">
+                    <div class="img-box">
+                        <img src="img/2.1.jpg" width="100%">
+                    </div>
+                    <div class="text-box">
+                        <h2>2</h2>
+                        <p>2222</p>
+                    </div>
+                </div>
+                <div class="card-3">
+                    <div class="img-box">
+                        <img src="img/3.1.jpg" width="100%">
+                    </div>
+                    <div class="text-box">
+                        <h2>3</h2>
+                        <p>333</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

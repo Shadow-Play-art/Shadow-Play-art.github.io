@@ -1,0 +1,81 @@
+.make{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height:400px;
+    margin: 0 auto;
+    margin: right 0 left 0 ;
+}
+.make div:nth-child(1){
+    align-self: flex-end;
+    background-image: url("../img/微信图片_20221202221448.jpg");
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.make div:nth-child(2){
+    align-self: flex-start;
+    background-image: url("../img/微信图片_20221202221436.jpg");
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.make div:nth-child(3){
+    background-color: #ddc2a4;
+    align-self: flex-end;
+    background-image: url("../img/微信3.png");
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.make div:nth-child(4){
+    align-self: flex-start;
+    background-image: url("../img/微信图片_20221202221455.jpg");
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.make div:nth-child(5){
+    align-self: flex-end;
+    background-image: url("../img/微信图片_20221202221458.jpg");
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.make div{
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    transition: .8s;
+    color:aliceblue;
+    font-family: GuFengKeZi;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 300px;
+}
+.make div:hover{
+    transform: translateY(-50px);
+    box-shadow: 10px 5px 10px grey;
+}
+h4{
+    font-family: GuFengKeZi;
+    font-size: 25px;
+    text-align: center;
+    color:brown;
+}
+.mk :link{
+    text-decoration: none;
+    color: brown;
+}
+
+.mk :visited{
+    text-decoration: none;
+    color: brown;
+}
+.mk :hover{
+    text-decoration: none;
+    color:#506536;
+}
